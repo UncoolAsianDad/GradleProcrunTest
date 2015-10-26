@@ -1,0 +1,9 @@
+
+2015-10-26 12:24:09 Commons Daemon procrun stderr initialized
+java.lang.NoClassDefFoundError: com/codeforart/GradleProcrunTest
+Caused by: java.lang.ClassNotFoundException: com.codeforart.GradleProcrunTest
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+Exception in thread "main" 

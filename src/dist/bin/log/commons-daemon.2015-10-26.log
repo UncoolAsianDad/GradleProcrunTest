@@ -1,0 +1,32 @@
+[2015-10-26 12:23:55] [debug] ( prunsrv.c:1679) [ 1060] Commons Daemon procrun log initialized
+[2015-10-26 12:23:55] [info]  ( prunsrv.c:1683) [ 1060] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-26 12:23:55] [debug] ( prunsrv.c:561 ) [ 1060] Installing service...
+[2015-10-26 12:23:55] [info]  ( prunsrv.c:600 ) [ 1060] Service gradleProcRun name Gradle ProcRun
+[2015-10-26 12:23:55] [debug] ( prunsrv.c:616 ) [ 1060] Setting service description Gradle Procrun Tester
+[2015-10-26 12:23:55] [info]  ( prunsrv.c:634 ) [ 1060] Service 'gradleProcRun' installed
+[2015-10-26 12:23:55] [info]  ( prunsrv.c:1764) [ 1060] Commons Daemon procrun finished
+[2015-10-26 12:24:09] [debug] ( prunsrv.c:1679) [ 2032] Commons Daemon procrun log initialized
+[2015-10-26 12:24:09] [info]  ( prunsrv.c:1683) [ 2032] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-26 12:24:09] [info]  ( prunsrv.c:1596) [ 2032] Running 'gradleProcRun' Service...
+[2015-10-26 12:24:09] [debug] ( prunsrv.c:1374) [ 1724] Inside ServiceMain...
+[2015-10-26 12:24:09] [debug] ( prunsrv.c:844 ) [ 1724] reportServiceStatusE: 2, 0, 3000, 0
+[2015-10-26 12:24:09] [info]  ( prunsrv.c:1127) [ 1724] Starting service...
+[2015-10-26 12:24:09] [debug] ( javajni.c:233 ) [ 1724] loading jvm 'C:\Program Files\Java\jre1.8.0_65\bin\server\jvm.dll'
+[2015-10-26 12:24:09] [debug] ( javajni.c:278 ) [ 1724] Setting DLL search path to 'C:\Program Files\Java\jre1.8.0_65\bin\server'
+[2015-10-26 12:24:09] [debug] ( javajni.c:278 ) [ 1724] Setting DLL search path to 'C:\Program Files\Java\jre1.8.0_65\bin'
+[2015-10-26 12:24:09] [debug] ( javajni.c:704 ) [ 1764] Jvm Option[0] -Djava.class.path=C:\Users\Hikaru\Projects\gradle-procrun\src\dist\bin\gradleProcRun
+[2015-10-26 12:24:09] [debug] ( javajni.c:704 ) [ 1764] Jvm Option[1] exit
+[2015-10-26 12:24:09] [error] ( javajni.c:863 ) [ 1764] FindClass com/codeforart/GradleProcrunTest failed
+[2015-10-26 12:24:09] [debug] ( javajni.c:964 ) [ 1764] Java Worker thread finished com/codeforart/GradleProcrunTest:start with status=3
+[2015-10-26 12:24:09] [error] ( prunsrv.c:1183) [ 1724] Failed to start Java
+[2015-10-26 12:24:09] [error] ( prunsrv.c:1536) [ 1724] ServiceStart returned 4
+[2015-10-26 12:24:09] [debug] ( prunsrv.c:844 ) [ 1724] reportServiceStatusE: 1, 1066, 0, 4
+[2015-10-26 12:24:09] [info]  ( prunsrv.c:1598) [ 2032] Run service finished.
+[2015-10-26 12:24:09] [info]  ( prunsrv.c:1764) [ 2032] Commons Daemon procrun finished
+[2015-10-26 12:25:57] [debug] ( prunsrv.c:1679) [ 2420] Commons Daemon procrun log initialized
+[2015-10-26 12:25:57] [info]  ( prunsrv.c:1683) [ 2420] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2015-10-26 12:25:57] [debug] ( prunsrv.c:561 ) [ 2420] Installing service...
+[2015-10-26 12:25:57] [info]  ( prunsrv.c:600 ) [ 2420] Service gradleProcRun name Gradle ProcRun
+[2015-10-26 12:25:57] [debug] ( prunsrv.c:616 ) [ 2420] Setting service description Gradle Procrun Tester
+[2015-10-26 12:25:57] [info]  ( prunsrv.c:634 ) [ 2420] Service 'gradleProcRun' installed
+[2015-10-26 12:25:57] [info]  ( prunsrv.c:1764) [ 2420] Commons Daemon procrun finished
