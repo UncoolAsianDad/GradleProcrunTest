@@ -6,7 +6,7 @@ prunsrv.exe //IS//%SERVICE_NAME% ^
 	--Startup=auto ^
 	--Install=%CD%\gradleProcTest.exe ^
 	--Jvm=auto ^
-	--Classpath=%CD%\gradleProcRun ^
+	--Classpath=..\lib\%SERVICE_CLASS_FILE% ^
 	--StartMode=jvm ^
 	--StartClass=%SERVICE_CLASS% ^
 	--StartMethod=start ^
@@ -17,6 +17,6 @@ prunsrv.exe //IS//%SERVICE_NAME% ^
 	--StopParams=stop ^
 	--StdOutput=auto ^
 	--StdError=auto ^
-	--LogPath=%CD%\log ^
+	--LogPath=%CD%\..\log ^
 	--LogLevel=Debug
 

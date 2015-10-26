@@ -1,1 +1,2 @@
-prunsrv.exe //ES//test-procrun
+call variables.bat
+prunsrv.exe //ES//%SERVICE_NAME%
